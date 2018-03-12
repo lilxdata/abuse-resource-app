@@ -1,0 +1,29 @@
+/* Header styles, this is the styles for "Resource App" at the top of every page  */
+
+h1, #site-header {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Styles for the question "Which resources would you like to access now?" */
+h3 { 
+    
+}
+
+#question { 
+ 
+}
+/* Styles for the paragraph text on each page  */
+
+body { 
+    text-align: left;
+
+}
+
+#button { 
+    text-align: center;
+    margin:auto;
+}
