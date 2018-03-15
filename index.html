@@ -24,24 +24,26 @@
 
     <body> 
         <main>
-            <p> 
+            <p class="info"> 
                 This app was designed to help people who have sexually assaulted someone else and people who know someone who has 
                 sexually assaulted someone else be directed to resources to help them in the process of recovering from abuse 
                 and preventing further abuse. 
             </p>
-            <p>
+            <p class="info">
                 We want to address all parts of the cycle of abuse in order to more quickly bring an end to it, and to stress that
                 the burden is not on the person who has survived sexual assault to end sexual assault. 
             </p>
-            <p>
+            <p class="info">
                 Currently, this app does not have resources specifically for people who have survived sexual assault, so if that is you, 
                 <a href="https://www.rainn.org/after-sexual-assault"> visit RAINN to find resources for what to do after sexual assault. </a>
             </p>
 
             <center>
                 <h3 id="question"> Knowing all of that, which of the following best describes you? </h3>
-                <button id="button" type="button" onClick="parent.location='./src/my-own-behaviors.html'"> I abused someone </button>
-                <button id ="button" type="button" onClick="parent.location='./src/i-know-someone.html'"> I know someone who abused </button>
+                <div class="container">
+                  <button id="button" type="button" onClick="parent.location='./src/my-own-behaviors.html'"> I abused someone </button>
+                  <button id ="button" type="button" onClick="parent.location='./src/i-know-someone.html'"> I know someone who abused </button>
+                </div>
             </center>
         </main>
     </body>

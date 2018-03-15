@@ -1,29 +1,50 @@
 /* Header styles, this is the styles for "Resource App" at the top of every page  */
+@import url('http://fonts.googleapis.com/css?family=Lato:400,700'); 
 
-h1, #site-header {
+h1 {
     text-align: center;
+    font-family: serif;
+    font-size: 30px;
+    font-size: 48px;
+    font-style: italic;
 }
 
 h2 {
     text-align: center;
+    font-size: 36px;
 }
 
 /* Styles for the question "Which resources would you like to access now?" */
-/* h3 { 
-    
+h3 { 
+    font-size: 36px;
+
 }
 
-#question { 
- 
-} */
 /* Styles for the paragraph text on each page  */
 
 body { 
     text-align: left;
+    font-family: Lato, sans-serif;
+    margin: 100px;
 
 }
 
-#button { 
-    text-align: center;
-    margin:auto;
+p.info {
+    font-family: Lato, sans-serif;
+    font-size: 32px;
+}
+
+
+
+button { 
+    text-align: center; 
+    color: black; 
+    background-color: black;
+    border-color: black;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    margin:10px;
+    padding: 10px;
+    font-family: sans-serif;
 }
