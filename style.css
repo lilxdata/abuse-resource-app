@@ -34,9 +34,9 @@ body {
 
 p.info {
     font-family: Lato, sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    line-height:1.6;
 }
-
 
 
 button { 
@@ -52,7 +52,8 @@ button {
     font-family: sans-serif;
 }
 
-.material-icons.icons { 
+/* Styles for Google's material icons  */
 
+.material-icons.icons { 
     font-size: 36px;
 };
