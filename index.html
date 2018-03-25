@@ -8,6 +8,7 @@
         <div class ="container"> 
             <div>
                 <i class="material-icons icons" onClick="parent.location='./index.html'">home</i>
+                <i class="material-icons icons" onClick="parent.location='./src/glossary.html'">library_books</i>
                 <h1>
                     <i class="fa fa-rocket"> </i>
                     <span class="highlight"> Resource App </span>
@@ -27,24 +28,30 @@
     <body> 
         <main>
             <p class="info"> 
-                This app was designed to help people who have sexually assaulted someone else and people who know someone who has 
-                sexually assaulted someone else be directed to resources to help them in the process of recovering from abuse 
+                This app was designed to help people who know someone who has sexually assaulted someone else. 
+                We want to direct you to resources to help in the process of recovering from hearing about this abuse 
                 and preventing further abuse. 
             </p>
             <p class="info">
+                Finding out someone you know has committed a sexual assault is a hard thing to go through, and often it is not
+                clear what you should do in the situation. Many people decide to either ignore the act that the person did or 
+                cut off contact with the person who has committed the sexual assault. While these are valid responses, neither
+                of these reactions will prevent the person from committing sexual assaults in the future. It is good that you are here to help direct the person to resources to prevent future offenses, and to take
+                care of yourself in the process.
+            </p>
+            <p class ="info">
                 We want to address all parts of the cycle of abuse in order to more quickly bring an end to it, and to stress that
                 the burden is not on the person who has survived sexual assault to end sexual assault. 
-            </p>
-            <p class="info">
                 Currently, this app does not have resources specifically for people who have survived sexual assault, so if that is you, 
                 <a href="https://www.rainn.org/after-sexual-assault"> visit RAINN to find resources for what to do after sexual assault. </a>
             </p>
 
             <center>
-                <h3 id="question"> Knowing all of that, which of the following best describes you? </h3>
+                <h3> Knowing all of that, which resources would you like to access now? </h3>
                 <div class="container">
-                  <button id="button" type="button" onClick="parent.location='./src/my-own-behaviors.html'"> I abused someone </button>
-                  <button id ="button" type="button" onClick="parent.location='./src/i-know-someone.html'"> I know someone who abused </button>
+                    <button type="button" onClick="parent.location='./src/resource-pages/ally-treatment.html'"> Treatment Resources </button>
+                    <button type="button" onClick="parent.location='./src/resource-pages/ally-reporting.html'"> Reporting Resources </button>
+                    <button type="button" onClick="parent.location='./src/resource-pages/ally-self-care.html'"> Self-Care Resources </button>
                 </div>
             </center>
         </main>
