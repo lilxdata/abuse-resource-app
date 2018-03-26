@@ -55,6 +55,15 @@ button {
     font-family: sans-serif;
 }
 
+button:hover { 
+    color: black;
+    border-color: black;
+}
+
+button:visited {
+    color:black;
+}
+
 /* Styles for Google's material icons  */
 
 .material-icons.icons { 
