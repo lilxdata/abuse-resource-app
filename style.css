@@ -14,7 +14,7 @@ h1 {
 h2 {
     text-align: center;
     font-size: 36px;
-    /* color: #B9C1C6; */
+    color: #B9C1C6;
     font-family: Georgia, serif;
 }
 
@@ -32,6 +32,7 @@ body {
     text-align: left;
     font-family: Lato, sans-serif;
     margin: 80px;
+    max-width: 2000px;
 
 }
 
@@ -41,11 +42,17 @@ p.info {
     line-height:1.6;
 }
 
+p.icons {
+    font-size: 13px;
+    color: #B9C1C6;
+    font-weight:bold;
+    padding: 0px;
+    margin: 0px;
+}
 
 button { 
     text-align: center; 
     color:#2980B9;
-    /* border-color:  #B9C1C6;  */
     border-color: #2980b9;
     background-color: white;
     border-radius: 5px;
@@ -53,20 +60,25 @@ button {
     margin:10px;
     padding: 10px;
     font-family: sans-serif;
+    cursor: pointer;
 }
 
 button:hover { 
-    color: black;
-    border-color: black;
+    color: white;
+    border-color: #2980b9;
+    background-color:#2980b9;
 }
 
 button:visited {
-    color:black;
+    color:#1b557a;
 }
 
 /* Styles for Google's material icons  */
 
 .material-icons.icons { 
     font-size: 36px;
-    /* color: #B9C1C6;  */
+    color: #B9C1C6; 
+    padding: 4px;
+    padding-bottom: 0px;
+    cursor: pointer;
 };
