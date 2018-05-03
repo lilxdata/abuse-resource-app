@@ -5,13 +5,13 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Resource App">
-        <div class ="container"> 
-            <div>
-                
-            </div>
-            <nav>
-            </nav>
-        </div>
+        <nav>
+          <a id="logo"> Resource App </a>
+          <a class="active"> Home </a>
+          <a href='./src/glossary.html'> Glossary </a>
+          <a href='./src/contact.html'> Contact </a>
+          <a href='./src/about.html'> About </a> 
+        </nav>
         <title>
             Resource App
         </title>
@@ -22,11 +22,10 @@
 
     <body> 
         <main>
-            <i class="material-icons icons" onClick="parent.location='./index.html'">home</i>
+          <div class = "page">
+            <!-- <i class="material-icons icons" onClick="parent.location='./index.html'">home</i>
             <i class="material-icons icons" onClick="parent.location='./src/glossary.html'">library_books</i>
-            <p class="icons"> home &nbsp; &nbsp; &nbsp; glossary </p>
-            <h1> Resource App </h1>
-            <h2> Home Page </h2>
+            <p class="icons"> home &nbsp; &nbsp; &nbsp; glossary </p> -->
             
             <p class="info"> 
                 This app was designed to help people who know someone who has sexually assaulted someone else. 
@@ -45,12 +44,23 @@
 
             <center>
                 <h3> Knowing all of that, which resources would you like to access now? </h3>
-                <div class="container">
-                    <button type="button" onClick="parent.location='./src/resource-pages/ally-treatment.html'"> Treatment Resources </button>
-                    <button type="button" onClick="parent.location='./src/resource-pages/ally-reporting.html'"> Reporting Resources </button>
-                    <button type="button" onClick="parent.location='./src/resource-pages/ally-self-care.html'"> Self-Care Resources </button>
-                </div>
+                    <div class="button" onClick="parent.location='./src/resource-pages/ally-treatment.html'"> Treatment Resources
+                      <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                        <rect x='0' y='0' fill='none' width='213' height='65'/>
+                      </svg> 
+                    </div>
+                    <div class="button" onClick="parent.location='./src/resource-pages/ally-reporting.html'"> Reporting Resources
+                        <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                          <rect x='0' y='0' fill='none' width='213' height='65'/>
+                        </svg> 
+                    </div>
+                    <div class="button" onClick="parent.location='./src/resource-pages/ally-self-care.html'"> Self-Care Resources
+                        <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                          <rect x='0' y='0' fill='none' width='213' height='65'/>
+                        </svg> 
+                    </div>
             </center>
+          </div>
         </main>
     </body>
 </html>

@@ -1,14 +1,17 @@
 <!DOCTYPE html> 
 <html> 
     <head> 
+        <nav>
+            <a id="logo"> Resource App </a>
+            <a href='../../index.html'> Home </a>
+            <a href='../glossary.html'> Glossary </a>
+            <a href='../contact.html'> Contact </a>
+            <a href='../about.html'> About </a> 
+        </nav> 
         <link rel="stylesheet" href="../../style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body> 
-        <i class="material-icons icons" onClick="parent.location='../../index.html'">home</i>
-        <i class="material-icons icons" onClick="parent.location='../../src/glossary.html'">library_books</i>
-        <p class="icons"> home &nbsp; &nbsp; &nbsp; glossary </p>
-        <h1> Resource App </h1>
         <h2> Treatment Resources </h2>
         <p class="info"> 
             Studies show that treatment is one of the most effective ways to avoid repeat sexual assaults. You can make
@@ -24,8 +27,16 @@
         </p>
         <center>
             <h3> Which resources would you like to access now? </h3>
-            <button type="button" onClick="parent.location='./ally-self-care.html'"> Self-Care Resources </button>
-            <button type="button" onClick="parent.location='./ally-reporting.html'"> Reporting Resources </button>  
+            <div class="button" onClick="parent.location='./ally-self-care.html'"> Self-Care Resources
+                <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                  <rect x='0' y='0' fill='none' width='213' height='65'/>
+                </svg> 
+            </div>
+            <div class="button" onClick="parent.location='./ally-reporting.html'"> Reporting Resources
+                <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                    <rect x='0' y='0' fill='none' width='213' height='65'/>
+                </svg> 
+            </div>
         </center>
     </body>
 </html>
