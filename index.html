@@ -5,27 +5,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="description" content="Resource App">
-        <nav>
-          <a id="logo" href='./index.html'> Resource App </a>
-          <a class="active"> Home </a>
-          <a href='./src/glossary.html'> Glossary </a>
-          <a href='./src/contact.html'> Contact </a>
-          <a href='./src/about.html'> About </a> 
-        </nav>
         <title>
             Resource App
         </title>
         <link rel="stylesheet" href="./style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        </style>
     </head>
 
     <body> 
+        <header>
+            <nav>
+                <a id="logo" href='./index.html'> Resource App </a>
+                <img src="logo.svg" alt="image">  
+                <a class="active"> Home </a>
+                <a href='./src/glossary.html'> Glossary </a>
+                <a href='./src/contact.html'> Contact </a>
+                <a href='./src/about.html'> About </a> 
+            </nav>
+        </header>
         <main>
           <div class = "page">
-            <!-- <i class="material-icons icons" onClick="parent.location='./index.html'">home</i>
-            <i class="material-icons icons" onClick="parent.location='./src/glossary.html'">library_books</i>
-            <p class="icons"> home &nbsp; &nbsp; &nbsp; glossary </p> -->
             
             <p class="tagline"> 
                 This app was designed to help people who know someone who has sexually assaulted someone else. 
@@ -43,7 +42,7 @@
                 <a href="https://www.rainn.org/after-sexual-assault" target="_blank"> visit RAINN to find resources for what to do after sexual assault. </a>
             </p>
 
-            <center>
+            <div class="question-and-buttons">
                 <h3> Knowing all of that, which resources would you like to access now? </h3>
                     <div class="button" onClick="parent.location='./src/resource-pages/ally-treatment.html'"> Treatment Resources
                       <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
@@ -60,7 +59,7 @@
                           <rect x='0' y='0' fill='none' width='213' height='65'/>
                         </svg> 
                     </div>
-            </center>
+            </div>
           </div>
         </main>
     </body>

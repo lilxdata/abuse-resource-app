@@ -1,42 +1,47 @@
 <!DOCTYPE html> 
 <html> 
-    <head> 
-        <nav>
-            <a id="logo" href='../../index.html'> Resource App </a>
-            <a href='../../index.html'> Home </a>
-            <a href='../glossary.html'> Glossary </a>
-            <a href='../contact.html'> Contact </a>
-            <a href='../about.html'> About </a> 
-        </nav>        
+    <head>       
         <link rel="stylesheet" href="../../style.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     </head>
     <body> 
-      <div class="page">
-        <p class="tagline"> Reporting Resources </p> 
-        <p class="info"> 
-            Reporting a sexual assault that someone you know committed can be hard for numerous reasons.  
-        </p>
-        <p class="info"> 
-            In order to report an assault, you can contact your local police department. However, if you do not
-            feel comfortable engaging with the police, you can still keep the person who committed the assault 
-            accountable to their actions by using principles of community accountability. You can read more about that
-            through  <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/4.F.CI-Toolkit-Tools-Taking-Accountability-Pre-Release-Version-06.2012.pdf" target="_blank"> Creative Intervention's guide for taking accountability. </a>
-        </p>
+        <header>
+            <nav>
+                <a id="logo" href='../../index.html'> Resource App </a>
+                <a href='../../index.html'> Home </a>
+                <a href='../glossary.html'> Glossary </a>
+                <a href='../contact.html'> Contact </a>
+                <a href='../about.html'> About </a> 
+            </nav>  
+        </header>
+        <main>
+            <div class="page">
+                <p class="tagline"> Reporting Resources </p> 
+                <p class="info"> 
+                    Reporting a sexual assault that someone you know committed can be hard for numerous reasons.  
+                </p>
+                <p class="info"> 
+                    In order to report an assault, you can contact your local police department. However, if you do not
+                    feel comfortable engaging with the police, you can still keep the person who committed the assault 
+                    accountable to their actions by using principles of community accountability. You can read more about that
+                    through  <a href="http://www.creative-interventions.org/wp-content/uploads/2012/06/4.F.CI-Toolkit-Tools-Taking-Accountability-Pre-Release-Version-06.2012.pdf" target="_blank"> Creative Intervention's guide for taking accountability. </a>
+                </p>
 
-        <center>
-            <h3> Which resources would you like to access now? </h3>
-            <div class="button" onClick="parent.location='./ally-treatment.html'"> Treatment Resources
-                <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
-                  <rect x='0' y='0' fill='none' width='213' height='65'/>
-                </svg> 
+                <h3> Which resources would you like to access now? </h3>
+
+                <div class="buttons">
+                    <div class="button" onClick="parent.location='./ally-treatment.html'"> Treatment Resources
+                        <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                        <rect x='0' y='0' fill='none' width='213' height='65'/>
+                        </svg> 
+                    </div>
+                    <div class="button" onClick="parent.location='./ally-self-care.html'"> Self-Care Resources
+                        <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
+                            <rect x='0' y='0' fill='none' width='213' height='65'/>
+                        </svg> 
+                    </div>
+                </div>
             </div>
-            <div class="button" onClick="parent.location='./ally-self-care.html'"> Self-Care Resources
-                <svg width="213" height="65" viewBox="0 0 213 65" xmlns="http://www.w3.org/2000/svg">
-                    <rect x='0' y='0' fill='none' width='213' height='65'/>
-                </svg> 
-            </div>
-        </center>
-      </div>
+        </main>
     </body>
 </html>
