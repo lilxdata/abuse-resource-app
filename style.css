@@ -1,4 +1,3 @@
-
 @import url('http://fonts.googleapis.com/css?family=Lato:400,500,600,700'); 
 @import url('http://fonts.googleapis.com/css?family=Tinos:400,700'); 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,500,600,700');
@@ -6,17 +5,40 @@
 @import url('https://fonts.googleapis.com/css?family=Titan+One:400,700');
 @import url('https://fonts.googleapis.com/css?family=Pacifico:400,700');
 @import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700');
+.body-text {
+  height: 600px;
+}
 /* styles for the nav bar at the top  */
-
+.link:hover {
+  opacity: 0.85;
+}
+.q-buttons {
+  /* border: 1px solid #4274D3;
+  background: #ADD8e6; */
+  margin-top: 60px;
+  color: #fff;
+  opacity: 0.85;
+  padding-left: 5px;
+  margin-bottom: 5px;
+  /* border-left: 1px solid #4274D3; */
+}
 .foot {
-  font-style: italic;
+  /* font-style: italic; */
   text-align: center; 
-  padding-top: 50px; 
+  font-size: .85rem;
+}
+
+
+.tagline-box {
+  /* background-color: #4274D3; */
+  opacity: 2;
+  vertical-align: baseline;
+  /* top: 112px; */
 }
 
 #full {
   color: #4274D3;
-  font-family: Lato, sans-serif;
+  font-family: Lato, Helvetica, sans-serif;
   font-size: 40px;
   text-transform: lowercase; 
   float: left;
@@ -103,7 +125,7 @@ nav {
   /* float: right; */
   text-transform: lowercase;
 
-  font-family: 'Lato', 'Open Sans', sans-serif;
+  font-family: 'Lato', 'Open Sans', Helvetica, sans-serif;
   font-size: 14px;
   /* color: white; */
   color: black;
@@ -121,30 +143,13 @@ nav {
 #nav:last-child {
     margin-right: 100px;
 }
-/* nav a#nav:hover {
-    background-color: #4274D3;
-    color: white;
-    height: 76px;
-} */
 
 #nav.active{
-    background-color: #FFFFFF;
     color: #4274D3;
     height: 76px;
     border-bottom: 1px solid #4274D3;
 }
 
-#logo {
-  text-transform: lowercase;
-  font-family: 'Comfortaa';
-  /* padding-left: 50px;
-  padding-right: 50px; */
-  text-align: center;
-}
-
-#logo:hover{
-    background-color: dimgray;  
-}
 /* Header styles, this is the styles for "Resource App" at the top of every page  */
 
 a {
@@ -154,27 +159,18 @@ a {
 div.page{
     display: block;
 }
-h1 {
-    text-align: center;
-    font-family: Georgia, serif;
-    font-size: 28px;
-    font-style: italic;
-    color: #4274D3;
-    /* color: white; */
-}
 
 /* Styles for the question "Which resources would you like to access now?" */
 h3 {
-    margin: 20px;
-    padding: 40px 0px 0px 0px; 
+    margin-top: 0px;
+    margin-bottom: 20px;
+    /* padding: 0px 0px 0px 0px;  */
     font-size: 24px;
-    font-family: Lato, sans-serif;  
-    /* color: #4274D3;  */
-    /* color: white; */
-    /* color: #4274D3; */
+    font-family: Lato, Helvetica sans-serif;  
     color: #000;
-    text-align: center;
-    font-weight: 600;
+    text-align: left;
+    font-weight: 400;
+    /* color: #fff; */
 
 }
 
@@ -182,7 +178,7 @@ h3 {
 
 body { 
     text-align: left;
-    font-family: Lato, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 16px;
     /* margin: 80px; */
     max-width: 2000px;
@@ -195,9 +191,17 @@ body {
 }
 
 p.info {
-    font-family: Lato, sans-serif;
+    font-family: Lato, Helvetica, sans-serif;
     font-size: 16px;
     line-height:1.6;
+    /* padding-right: 50%; */
+}
+
+p.info2 {
+    font-family: Lato, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height:1.6;
+    /* padding-left: 50%;  */
 }
 
 p.icons {
@@ -212,11 +216,12 @@ p.icons:hover {
     cursor: pointer;
 }
 
-h2, p.tagline {
+h2, .tagline {
     font-size: 40px;
     color: black;
-    margin-top: 75px;
+    margin-top: 125px;
     padding-top: 20px;
+    /* border-bottom: 4px solid #4274D3; */
 }
 /* 
 p.tagline {
@@ -234,8 +239,6 @@ p.tagline {
 div.buttons { 
     text-align: center;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     /* align-items: center!important;
     justify-content: center!important; */
 }
@@ -308,17 +311,19 @@ button:visited {
   height: 65px;
   margin: 15px 10px 10px 10px;
   /* color: #4274D3; */
-  color: dimgray;
+  color: #4274D3;
+  /* background-color: #4274D3; */
   /* color: white; */
-  font-family: 'Open Sans', sans-serif;
-  font-size: .85rem;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  font-size: 1.15rem;
   line-height: 65px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
   position: relative;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 400;
   display: inline-block;
+  /* border-bottom: 2px solid #4274D3; */
 }
   
 svg {
@@ -329,19 +334,21 @@ svg {
 
 svg rect, svg path, svg polyline {
   fill: none;
-  stroke: #4274D3;
+  /* stroke: #4274D3; */
   /* stroke: white; */
   /* stroke: white; */
-  stroke-width: 5;
+  stroke-width: 3;
 }
   
 .button:hover svg rect {
   stroke: #4274D3;
   /* stroke: white; */
+  border-bottom: none;
 }
 
 .button:hover {
   color: #4274D3;
+  border-bottom: none;
 }
   
   /* Basic Box */
